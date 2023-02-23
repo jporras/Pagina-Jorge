@@ -1,0 +1,653 @@
+@font-face {
+  font-family: "Dancing Script";
+  src: url(./fonts/DancingScript-VariableFont_wght.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: "Gloock";
+  src: url(fonts/Gloock-Regular.ttf) format("truetype");
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+#jeans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coleccion-de-jeans {
+  margin-top: 50px;
+  font-family: 'Gloock';
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.div-jeans {
+  display: flex;
+  gap: 70px; 
+  margin-top: 30px; 
+}
+
+.coleccion-de-jeans{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 0px;
+  background-color: #aed6f178;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px #87bee49c;
+  -webkit-text-stroke: 1px #aed6f15e;
+}
+
+.contenido-1 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-1.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+
+.contenido-2 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-2.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px 
+}
+
+.contenido-3 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-3.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px 
+}
+
+.contenido-4 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-4.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px  
+}
+
+.contenido-5 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-5.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+
+.contenido-6 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-6.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+
+.contenido-7 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-7.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+
+.contenido-8 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-8.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-9 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-9.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-10 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-10.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-11 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-11.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-12 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-12.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-13 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-13.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-14 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-14.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-15 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-15.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-16 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-16.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-17 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-17.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-18 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-18.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+
+.contenido-19 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-19.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-20 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-20.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-21 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-21.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-22 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-22.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-23 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-23.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+.contenido-24 {
+  overflow: hidden;
+  transition: all .3s;
+  width: 260px;
+  height: 450px;
+  cursor: context-menu;
+  background-image: url("../img/Productos/Jeans/pantalon-24.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px
+}
+
+.contenido-jeans{
+  padding: 5px;
+  height: 560px;
+  background-color: #aed6f178;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+  margin: 1px;
+  border: 1px solid #00000014;
+  border-radius: 10px 
+}
+
+.informacion-jeans {
+  text-align: center;
+}
+
+.informacion-jeans-1 {
+  text-align: center;
+  height: 30px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+  margin: 3px;
+  border: 1px solid #00000014;
+  border-radius: 10px;
+  font-family: 'Dancing Script'; 
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-text-stroke: 1px #0000008a;
+}
+
+.informacion-jeans-2 {
+  text-align: center;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+  margin: 3px;
+  border: 1px solid #00000014;
+  border-radius: 10px;
+  font-family: 'Dancing Script'; 
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-text-stroke: 0.2px #0000008a;
+}
+
+.contenido-1:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-1.1.png);
+  transition: all .3s;
+}
+
+.contenido-2:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-2.1.png);
+  transition: all .3s;
+}
+
+.contenido-3:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-3.1.png);
+  transition: all .3s;
+}
+
+.contenido-4:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-4.1.png);
+  transition: all .3s;
+}
+
+.contenido-5:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-5.1.png);
+  transition: all .3s;
+}
+
+.contenido-6:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-6.1.png);
+  transition: all .3s;
+}
+
+.contenido-7:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-7.1.png);
+  transition: all .3s;
+}
+
+.contenido-8:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-8.1.png);
+  transition: all .3s;
+}
+
+.contenido-9:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-9.1.png);
+  transition: all .3s;
+}
+
+.contenido-10:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-10.1.png);
+  transition: all .3s;
+}
+
+.contenido-11:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-11.1.png);
+  transition: all .3s;
+}
+
+.contenido-12:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-12.1.png);
+  transition: all .3s;
+}
+
+.contenido-13:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-13.1.png);
+  transition: all .3s;
+}
+
+.contenido-14:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-14.1.png);
+  transition: all .3s;
+}
+
+.contenido-15:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-15.1.png);
+  transition: all .3s;
+}
+
+.contenido-16:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-16.1.png);
+  transition: all .3s;
+}
+
+.contenido-17:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-17.1.png);
+  transition: all .3s;
+}
+
+.contenido-18:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-18.1.png);
+  transition: all .3s;
+}
+
+.contenido-19:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-19.1.png);
+  transition: all .3s;
+}
+
+.contenido-20:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-20.1.png);
+  transition: all .3s;
+}
+
+.contenido-21:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-21.1.png);
+  transition: all .3s;
+}
+
+.contenido-22:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-22.1.png);
+  transition: all .3s;
+}
+
+.contenido-23:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-23.1.png);
+  transition: all .3s;
+}
+
+.contenido-24:hover {
+  background-image: url(../img/Productos/Jeans/pantalon-24.1.png);
+  transition: all .3s;
+}
+
+.boton-wp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.whatasapp {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px 50px 50px 50px;
+  border: solid 1.5px #fff8f8;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  margin-right: 10px;
+  position: fixed;
+  top: 89%;
+  left: 95%;
+  background-image: url(../img/whatsapp.png);
+  background-size: cover;
+  background-position: center;
+  
+}
