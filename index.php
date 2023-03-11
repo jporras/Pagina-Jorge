@@ -1,13 +1,11 @@
-    <?php
-      include("conexion.php");
-      $con=conectar();
-      echo "Se realizó exitosamente la conexión a la base de datos";
-    ?>
-    
-    <?php 
-      include ('header.php')
-    ?>
-
+<?php
+    include("conexion.php");
+    $con=conectar();
+    if(!$con){
+        echo "Se realizó exitosamente la conexión a la base de datos";
+    }
+    include ('header.php')
+?>
 <div class="carouser mt-2 pt-2 container-fluid shadow-lg p-2 mb-1 bg-body-tertiary rounded">
 
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
