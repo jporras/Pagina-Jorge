@@ -1,3 +1,9 @@
+    <?php
+      include("conexion.php");
+      $con=conectar();
+      echo "Se realizó exitosamente la conexión a la base de datos";
+    ?>
+    
     <?php 
       include ('header.php')
     ?>
